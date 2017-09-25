@@ -1,0 +1,323 @@
+
+
+p,ul,ol
+{
+	font-family: Georgia,serif;
+	font-size: 17px;
+}
+
+body
+{
+	background-color: #EDF3FF;
+}
+
+h1
+{
+	color:#191975;
+	font-family: Georgia, serif;
+	font-size: 30px;
+	font-weight: thick;
+	text-align:center;
+	text-decoration: underline;
+}
+
+h2
+{
+	color:#0000E6;
+	font-family: Georgia, serif;
+	font-size: 22px;
+	font-weight: thick;
+	text-align:center;	
+}
+
+h3
+{
+	color:#5353DA;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	text-decoration: underline;
+	font-weight: thick;
+	text-align:center;	
+}  
+h4
+{
+	color:#0000E6;
+	font-family: Georgia, serif;
+	font-size: 22px;
+	font-weight: thick;
+	text-align:left;	
+}
+
+audio{
+	width:16em;
+}
+#menu li.current a{
+	background: #191975;
+	color:#fff;
+}
+
+
+
+#maincontent {
+	float:right;
+	width:84%;
+}
+
+nav 
+{
+	background:#fff;
+	float:left;
+	width:100%;
+	border-bottom: .3em solid #191975;
+}
+
+#primary
+{
+	width: 81%;  
+	float: left; 
+}
+
+#secondary
+{  
+	font-weight: bold;
+	width: 16%;  
+	float: right;
+	margin-top: 6em;
+	margin-bottom: 4em;
+	border: .2em solid #191975;
+	padding:1em;
+	background-color: #C6FFF1; 
+
+}
+
+#weather
+{
+	width: 10%;  
+	padding: 2em;
+	background-image : url(images/weather.jpg);
+	background-position: top right;
+	float: left; 
+	border: .2em solid #191975;
+	margin-top: 6em;
+}
+
+#feet
+{
+	width: 10%;
+	float: left;
+}
+
+#header
+{
+	width:100%;
+
+}
+
+footer
+{
+	border-top: 2px solid #191975;
+	margin-top: 8em;
+	clear:both;
+	width:100%;
+}
+
+#footerName
+{
+	width:49%;
+	float:left;
+	text-align: left;
+}
+
+#footerDate
+{
+	width:49%;
+	float:right;
+	text-align: right;
+}
+
+#video
+{
+	padding : 2em;
+	text-align: center;
+	width:100%;
+}
+
+
+#menu {
+	text-align: left;
+	display: inline;
+	margin-left : 20em;
+	list-style: none;
+
+}
+
+ #menu li  {
+	text-decoration: none;
+	font: bold 16px/18px sans-serif;
+	display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	background: #fff;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+} 
+
+#menu li a  {
+	color:#191975 ;
+	text-decoration: none;
+	font: bold 16px/18px sans-serif;
+	display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	padding: 10px 60px;
+
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+#menu li:hover , #menu li:hover a  {
+	background: #191975;
+	color: #fff ;
+}
+
+
+
+#menu2 {
+	padding: 0;
+	position: absolute;
+
+	left: 0;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	/*display: none;*/
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
+}
+
+
+#menu2 li a { 
+	padding-right:1em;
+	padding-left:1em;
+	background: #191975; 
+	color:#fff;
+	display: block; 
+	width: 200px;
+	text-shadow: 0 -1px 0 #000;
+}
+#menu2 li:hover a {
+	background:#5353DA;
+}
+
+#menu li:hover #menu2 {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+#topLeft, #topRight,#bottomLeft,#bottomRight
+{
+	margin: 1em;
+	text-align: center;
+	background: #fff;
+	width:46%;
+	border-radius: 25px;
+	padding: 20px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#topLeft{
+	background-color:#339966;
+	background-size: 100% 14em ; 
+	float:left;
+}
+
+#topRight{
+	background-color:#BDE9D3;
+	float:right;
+	height:20em;
+}
+#bottomLeft{
+	background-color:#77D2A4;
+	float:left;
+	height:28em;
+}
+#bottomRight{
+	background-color:#48C285;
+	float:right;
+}
+
+#maincontentArts{
+	padding-top: 2.5em;
+	margin:1px;
+	width:100%;
+}
+
+.centreImage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+#cuisinePics , #heritagePics, #retail, #mapTime
+{
+	width: 10%;  
+	float: left; 
+	border: .2em solid #191975;
+	padding:1em;
+	margin-top: 1em;
+	margin-bottom: 4em;
+}
+
+.lineImages img{
+	display:inline;
+	margin: 1em;
+}
+
+.lineImages{
+	width: 70%;
+	margin-top:2em;	
+	margin-bottom:4em;
+	margin-left:auto;
+	margin-right:auto;		
+	text-align:center;
+	border: .2em solid #191975;
+	padding-left :.01em;
+}
+
+#retail
+{   
+	background-color: #00CC99;
+	margin-top: 4em;
+	padding-top:2em;
+	padding-bottom:2em;
+	width:7%;
+	font-size: 30px;
+}
+
+#mapTime
+{
+	background-color: #00CC99;
+	margin-top: 4em;
+	padding-top:2em;
+	padding-bottom:1em;
+	width:13%;}
+
+	blockquote
+	{
+		font-family: Georgia,serif;
+		font-size: 17px;
+	}
